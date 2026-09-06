@@ -1,0 +1,43 @@
+name: QuantMind Daily Pipeline
+
+on:
+  schedule:
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  quantmind-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: |
+          pip install -q alpaca-trade-api MetaTrader5 pandas numpy scikit-learn xgboost keras tensorflow matplotlib pyarrow
+
+      - name: Train QuantMind
+        run: python quantmind.py
+
+      - name: Generate forecast
+        run: python live_forecast.py
+
+      - name: Execute paper trades
+        env:
+          ALPACA_PAPER_API_KEY: ${{ secrets.ALPACA_API_KEY }}
+          ALPACA_PAPER_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
+        run: python paper_executor.py
+
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
+          git add -A
+          git commit -m "Daily run: $(date)" || true
+          git push || true
