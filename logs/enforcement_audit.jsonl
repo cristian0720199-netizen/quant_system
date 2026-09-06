@@ -1,0 +1,21 @@
+{"ts": "2026-08-23T11:25:17.099580+00:00", "allowed": true, "violations": [], "order": {"symbol": "AAPL", "qty": 5, "side": "buy", "notional": 500, "price": 100}}
+{"ts": "2026-08-23T11:25:17.100096+00:00", "allowed": false, "violations": ["hook:valid:qty<=0"], "order": {"symbol": "AAPL", "qty": 0, "side": "buy", "notional": 0, "price": 100}}
+{"ts": "2026-08-23T11:25:17.100382+00:00", "allowed": false, "violations": ["hook:valid:TSLA not in allowed universe"], "order": {"symbol": "TSLA", "qty": 5, "side": "buy", "notional": 500, "price": 100}}
+{"ts": "2026-08-23T11:25:17.100625+00:00", "allowed": false, "violations": ["rule:position notional 5000 > max 1000"], "order": {"symbol": "MSFT", "qty": 50, "side": "buy", "notional": 5000, "price": 100}}
+{"ts": "2026-08-23T11:26:18.085436+00:00", "allowed": true, "violations": [], "order": {"symbol": "AAPL", "qty": 75, "side": "buy", "notional": 17250.0, "price": 230.0}}
+{"ts": "2026-08-23T11:26:18.085797+00:00", "allowed": true, "violations": [], "order": {"symbol": "MSFT", "qty": 46, "side": "buy", "notional": 19320.0, "price": 420.0}}
+{"ts": "2026-08-23T11:26:18.086023+00:00", "allowed": true, "violations": [], "order": {"symbol": "NVDA", "qty": 55, "side": "buy", "notional": 9900.0, "price": 180.0}}
+{"ts": "2026-08-23T11:26:18.086237+00:00", "allowed": true, "violations": [], "order": {"symbol": "JPM", "qty": 92, "side": "buy", "notional": 22080.0, "price": 240.0}}
+{"ts": "2026-08-23T11:26:18.086430+00:00", "allowed": false, "violations": ["rule:position notional 25920 > max 25000"], "order": {"symbol": "XOM", "qty": 216, "side": "buy", "notional": 25920.0, "price": 120.0}}
+{"ts": "2026-08-23T11:40:40.196102+00:00", "allowed": true, "violations": [], "order": {"symbol": "AAPL", "qty": 1, "side": "buy", "notional": 8540.153232437202, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.196495+00:00", "allowed": true, "violations": [], "order": {"symbol": "AMZN", "qty": 1, "side": "buy", "notional": 7334.034874106209, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.196771+00:00", "allowed": true, "violations": [], "order": {"symbol": "BAC", "qty": 1, "side": "buy", "notional": 8726.79096898534, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.196979+00:00", "allowed": true, "violations": [], "order": {"symbol": "GOOGL", "qty": 1, "side": "buy", "notional": 8399.697339797207, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.197214+00:00", "allowed": true, "violations": [], "order": {"symbol": "JNJ", "qty": 1, "side": "buy", "notional": 8132.176326611625, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.197420+00:00", "allowed": true, "violations": [], "order": {"symbol": "JPM", "qty": 1, "side": "buy", "notional": 8432.198805796404, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.197625+00:00", "allowed": true, "violations": [], "order": {"symbol": "META", "qty": 1, "side": "buy", "notional": 6679.875534606483, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.197825+00:00", "allowed": true, "violations": [], "order": {"symbol": "MSFT", "qty": 1, "side": "buy", "notional": 8450.245115142226, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.198045+00:00", "allowed": true, "violations": [], "order": {"symbol": "NVDA", "qty": 1, "side": "buy", "notional": 6243.31821487295, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.198309+00:00", "allowed": true, "violations": [], "order": {"symbol": "PFE", "qty": 1, "side": "buy", "notional": 7592.815192887318, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.198529+00:00", "allowed": true, "violations": [], "order": {"symbol": "WMT", "qty": 1, "side": "buy", "notional": 8223.9678422258, "price": 1.0}}
+{"ts": "2026-08-23T11:40:40.198746+00:00", "allowed": true, "violations": [], "order": {"symbol": "XOM", "qty": 1, "side": "buy", "notional": 8244.72655253123, "price": 1.0}}

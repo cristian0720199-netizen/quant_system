@@ -1,0 +1,34 @@
+2026-08-23 06:39:37,154 INFO loaded _prepped_stk: 454876 rows, 12 symbols
+2026-08-23 06:39:37,236 INFO features: 25 | usable rows: 445306
+2026-08-23 06:40:03,329 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'rv_800', 'volume_z', 'rv_200', 'parkinson_20', 'rv_60', 'rv_5', 'grad_20_200', 'dow_sin', 'xs_rv20', 'grad_60_800', 'rv_ratio_5_20']
+2026-08-23 06:40:03,815 WARNING TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-08-23 06:41:06,323 INFO window 1 R2 0.467 MAE 0.00094
+2026-08-23 06:41:34,903 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'volume_z', 'rv_60', 'rv_800', 'rv_5', 'xs_park', 'rv_200', 'grad_20_200', 'parkinson_20', 'xs_rv20', 'rv_ratio_5_20', 'xs_rank']
+2026-08-23 06:43:28,860 INFO window 2 R2 0.491 MAE 0.00082
+2026-08-23 06:43:48,438 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'volume_z', 'rv_60', 'parkinson_20', 'rv_200', 'rv_800', 'rv_5', 'grad_20_200', 'xs_rv20', 'xs_park', 'xs_rank', 'grad_60_800']
+2026-08-23 06:46:20,238 INFO window 3 R2 0.509 MAE 0.00089
+2026-08-23 06:46:41,220 INFO agents selected top-15: ['abs_ret_ewma', 'range_pct', 'minute', 'rv_slope', 'volume_z', 'parkinson_20', 'rv_800', 'rv_60', 'rv_200', 'xs_rv20', 'rv_5', 'grad_20_200', 'xs_park', 'dow_cos', 'dow_sin']
+2026-08-23 06:49:16,636 INFO window 4 R2 0.427 MAE 0.00092
+2026-08-23 06:49:17,655 INFO done
+2026-08-23 07:33:09,960 INFO loaded _prepped_stk: 454876 rows, 12 symbols
+2026-08-23 07:33:10,042 INFO features: 25 | usable rows: 445306
+2026-08-23 07:33:34,823 INFO loaded _prepped_stk: 454876 rows, 12 symbols
+2026-08-23 07:33:34,899 INFO features: 25 | usable rows: 445306
+2026-08-23 07:33:56,808 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'volume_z', 'rv_200', 'rv_800', 'xs_rv20', 'rv_5', 'rv_60', 'parkinson_20', 'xs_park', 'dow_sin', 'rv_ratio_5_20', 'grad_20_200']
+2026-08-23 07:34:00,009 WARNING TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-08-23 07:37:28,648 INFO loaded _prepped_stk: 454876 rows, 12 symbols
+2026-08-23 07:37:28,703 INFO features: 25 | usable rows: 445306
+2026-08-23 07:37:49,018 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'volume_z', 'rv_200', 'rv_800', 'xs_rv20', 'rv_5', 'rv_60', 'parkinson_20', 'xs_park', 'dow_sin', 'rv_ratio_5_20', 'grad_20_200']
+2026-08-23 07:37:51,381 WARNING TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-06 05:02:54,977 INFO loaded _prepped_stk: 454876 rows, 12 symbols
+2026-09-06 05:02:55,048 INFO features: 25 | usable rows: 445306
+2026-09-06 05:03:23,881 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'rv_800', 'volume_z', 'parkinson_20', 'rv_200', 'rv_60', 'grad_20_200', 'rv_5', 'xs_rv20', 'grad_60_800', 'rv_20', 'rv_ratio_5_20']
+2026-09-06 05:03:24,269 WARNING TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+2026-09-06 05:04:32,674 INFO window 1 R2 0.475 MAE 0.00093
+2026-09-06 05:04:51,206 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'volume_z', 'rv_60', 'rv_800', 'xs_park', 'rv_5', 'grad_20_200', 'rv_200', 'parkinson_20', 'xs_rv20', 'rv_ratio_5_20', 'grad_60_800']
+2026-09-06 05:06:38,939 INFO window 2 R2 0.493 MAE 0.00082
+2026-09-06 05:06:58,252 INFO agents selected top-15: ['abs_ret_ewma', 'minute', 'range_pct', 'rv_slope', 'volume_z', 'rv_60', 'parkinson_20', 'rv_5', 'rv_200', 'rv_800', 'grad_20_200', 'xs_rv20', 'baseline_vol', 'xs_rank', 'xs_park']
+2026-09-06 05:09:45,185 INFO window 3 R2 0.492 MAE 0.00091
+2026-09-06 05:10:04,696 INFO agents selected top-15: ['abs_ret_ewma', 'range_pct', 'minute', 'rv_slope', 'rv_800', 'rv_60', 'volume_z', 'parkinson_20', 'rv_200', 'rv_5', 'xs_rv20', 'xs_park', 'grad_20_200', 'dow_sin', 'dow_cos']
+2026-09-06 05:11:51,086 INFO window 4 R2 0.420 MAE 0.00091
+2026-09-06 05:11:51,776 INFO done
